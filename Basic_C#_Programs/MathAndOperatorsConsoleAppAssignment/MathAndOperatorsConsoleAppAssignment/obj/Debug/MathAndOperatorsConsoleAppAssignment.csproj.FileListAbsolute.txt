@@ -1,0 +1,2 @@
+C:\Users\Matt\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\MathAndOperatorsConsoleAppAssignment\MathAndOperatorsConsoleAppAssignment\obj\Debug\MathAndOperatorsConsoleAppAssignment.csproj.AssemblyReference.cache
+C:\Users\Matt\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\MathAndOperatorsConsoleAppAssignment\MathAndOperatorsConsoleAppAssignment\obj\Debug\MathAndOperatorsConsoleAppAssignment.csproj.CoreCompileInputs.cache
