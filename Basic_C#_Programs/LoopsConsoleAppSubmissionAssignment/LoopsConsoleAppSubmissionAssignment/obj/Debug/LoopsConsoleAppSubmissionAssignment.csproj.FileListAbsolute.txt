@@ -1,0 +1,2 @@
+C:\Users\Matt\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\LoopsConsoleAppSubmissionAssignment\LoopsConsoleAppSubmissionAssignment\obj\Debug\LoopsConsoleAppSubmissionAssignment.csproj.AssemblyReference.cache
+C:\Users\Matt\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\LoopsConsoleAppSubmissionAssignment\LoopsConsoleAppSubmissionAssignment\obj\Debug\LoopsConsoleAppSubmissionAssignment.csproj.CoreCompileInputs.cache
