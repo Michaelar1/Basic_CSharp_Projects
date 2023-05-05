@@ -1,5 +1,6 @@
 # Basic_CSharp_Projects
 This is a collection of all of my projects in C# and .NET that I worked on with The Tech Academy
+* [Array Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/ArraySubmissionAssignment)
 * [Package Express Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/BranchingSubmissionAssignment)
 * [Car Insurance Approval Program](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/BooleanLogicSubmissionAssignment)
 * [Anonymous Income Comparison Program](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/AnonymousIncomeComparisonProgram)
@@ -7,6 +8,9 @@ This is a collection of all of my projects in C# and .NET that I worked on with 
 * [Daily Report Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/DailyReportAssignment)
 
 ## Project Descriptions
+
+### Array Assignment
+  This was a C# assignment in Visual Studio in which I created a string array, an integer array, and a string list. I prompted the user for indices to each array and the lists. I used if/else statements to throw an error message if the user chose an invalid index number. If they chose a valid index, the program prints the value in the array or list at that index. This uses if/else branching statements, arrays, and lists.
 
 ### Package Express Assignment
   For this assignment in Visual Studio, I created a C# program that first took input from the user on package weight. If the weight exceeded 50 lbs, the user is given an alert that their package is too heavy, and the program ends. If it does not exceed the weight limit, the program gathers information on the package size. If the package is too large, the user is alerted and the program ends. If it is not too large, the price quote is calculated and printed to the user's screen. This uses if/else branching statements, nested branching, decimal data typing, math operators, boolean comparisons, the Math.Round() function, and String.Format().
