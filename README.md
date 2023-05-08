@@ -1,5 +1,6 @@
 # Basic_CSharp_Projects
 This is a collection of all of my projects in C# and .NET that I worked on with The Tech Academy
+* [Exception Handling Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/StringsAndIntegersSubmissionAssignment)
 * [Array Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/ArraySubmissionAssignment)
 * [Package Express Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/BranchingSubmissionAssignment)
 * [Car Insurance Approval Program](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/BooleanLogicSubmissionAssignment)
@@ -8,6 +9,9 @@ This is a collection of all of my projects in C# and .NET that I worked on with 
 * [Daily Report Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/DailyReportAssignment)
 
 ## Project Descriptions
+
+### Exception Handling Assignment
+  For this assignment, I created a program that takes an integer input from the user and then loops through a list of integers, dividing each by the user input. It utilizes a try/catch block to alert the user if they try to divide by zero, use a string instead of an integer, or have any other possible errors. This also uses a foreach loop, an integer list, math operators, and data casting.
 
 ### Array Assignment
   This was a C# assignment in Visual Studio in which I created a string array, an integer array, and a string list. I prompted the user for indices to each array and the lists. I used if/else statements to throw an error message if the user chose an invalid index number. If they chose a valid index, the program prints the value in the array or list at that index. This uses if/else branching statements, arrays, and lists.
