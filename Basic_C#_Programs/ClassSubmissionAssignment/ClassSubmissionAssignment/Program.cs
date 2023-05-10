@@ -17,9 +17,9 @@ namespace ClassSubmissionAssignment
 
             int x;
             int y;
-            Math.Addition(out x,out y); // Passes x an
-            Console.WriteLine("x is now " + x);
-            Console.WriteLine("y is now " + y);
+            Math.Addition(out x,out y); // Passes x and y to Math.Addition method
+            Console.WriteLine("x is now " + x);  // Prints x
+            Console.WriteLine("y is now " + y);  // Prints y
             
 
            
