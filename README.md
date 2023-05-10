@@ -1,4 +1,5 @@
 # Basic_CSharp_Projects
+* [Overload Method Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MainMethodSubmissionAssignment)
 This is a collection of all of my projects in C# and .NET that I worked on with The Tech Academy
 * [Calling Methods Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/CallingMethodsSubmissionAssignment)
 * [Exception Handling Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/StringsAndIntegersSubmissionAssignment)
@@ -11,8 +12,11 @@ This is a collection of all of my projects in C# and .NET that I worked on with 
 
 ## Project Descriptions
 
+### Overload Method Assignment
+  In this assignment, I used C# and Visual Studio to create three methods with the same name. The first took in an integer, added it with another integer, and then returned the result. The second took in a decimal, added it with another decimal and returned the result. The third took in a string parameter and returned an integer result. I then called all three methods and printed the results to the console. This used class creation, methods, overload methods, data casting, and math operators.
+
 ### Calling Methods Assignment
-  This was a C# that takes an integer input from the user and runs that integer through three math methods created in a class and then prints them to the console. This used class creation, methods, data casting, and  math operators. 
+  This was a C# program that takes an integer input from the user and runs that integer through three math methods created in a class and then prints them to the console. This used class creation, methods, data casting, and math operators. 
 
 ### Exception Handling Assignment
   For this assignment, I created a program using C# in Visual Studio that takes an integer input from the user and then loops through a list of integers, dividing each by the user input. It utilizes a try/catch block to alert the user if they try to divide by zero, use a string instead of an integer, or have any other possible errors. This also uses a foreach loop, an integer list, math operators, and data casting.
