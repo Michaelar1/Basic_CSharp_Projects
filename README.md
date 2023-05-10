@@ -1,6 +1,8 @@
 # Basic_CSharp_Projects
 This is a collection of all of my projects in C# and .NET that I worked on with The Tech Academy
 
+* [Two-Parameter Method Assignment(https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment1)
+* [Optional Parameter Assignment(https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment2)
 * [Overload Method Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MainMethodSubmissionAssignment)
 * [Calling Methods Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/CallingMethodsSubmissionAssignment)
 * [Exception Handling Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/StringsAndIntegersSubmissionAssignment)
@@ -12,6 +14,12 @@ This is a collection of all of my projects in C# and .NET that I worked on with 
 * [Daily Report Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/DailyReportAssignment)
 
 ## Project Descriptions
+
+### Two-Parameter Method Assignment
+  In this C# program, I created a class and a method that has two integer parameters. The method performs a math operation on the first parameter and prints it to the console and then it simply prints the second parameter to the console. I then called the method in the main program, first by passing the parameters in directly and then by naming each parameter with a variable and then passing the variables in as the parameters.
+
+### Optional Parameter Assignment
+  This was a C# program created in Visual Studio in which I created a class method with two parameters, the second being optional. Then I instantiated the method in the main program and prompted the user for either one or two integers. If the user passed two parameters into the program, the program would multiply the two integers. Otherwise, it would multiply the first integer with the default integer in the method. This used class creation, methods, optional parameters, math operators, data casting, and a try/catch loop.
 
 ### Overload Method Assignment
   In this assignment, I used C# and Visual Studio to create three methods with the same name. The first took in an integer, added it with another integer, and then returned the result. The second took in a decimal, added it with another decimal and returned the result. The third took in a string parameter and returned an integer result. I then called all three methods and printed the results to the console. This used class creation, methods, overload methods, data casting, and math operators.
