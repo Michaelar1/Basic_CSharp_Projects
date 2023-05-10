@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractClassSubmissionAssignment
 {
-    public class Employee : Person
+    public class Employee : Person  // Create Employee class which inherits from Person Class
     {
-        public override void SayName()
+        public override void SayName()  // Implement SayName() within Employee class
         {
             base.SayName();
         }
