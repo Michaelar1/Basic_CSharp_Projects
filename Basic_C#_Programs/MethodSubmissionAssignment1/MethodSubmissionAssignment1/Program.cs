@@ -12,9 +12,8 @@ namespace MethodSubmissionAssignment1
         {
             Math.Adding(5, 8);  // Call Math.Adding Class, passing in parameters
 
-            int x = 9;
-            int y = 42;
-            Math.Adding(x, y);  // Call Math.Adding Class, specifying parameters by name
+           
+            Math.Adding(firstParameter: 9, secondParameter: 15);  // Call Math.Adding Class, specifying parameters by name
             
             Console.ReadLine();
         }
