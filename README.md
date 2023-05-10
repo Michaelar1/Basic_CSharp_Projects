@@ -1,7 +1,7 @@
 # Basic_CSharp_Projects
 This is a collection of all of my projects in C# and .NET that I worked on with The Tech Academy
 
-* [Two-Parameter Method Assignment(https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment1)
+* [Two-Parameter Method Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment1)
 * [Optional Parameter Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment2)
 * [Overload Method Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MainMethodSubmissionAssignment)
 * [Calling Methods Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/CallingMethodsSubmissionAssignment)
