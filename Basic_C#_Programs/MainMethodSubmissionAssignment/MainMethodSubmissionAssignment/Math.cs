@@ -12,9 +12,10 @@ namespace MainMethodSubmissionAssignment
         {
             return x + 73;
         }
-        public static decimal Adding(decimal x)  // Create overload method of adding that uses decimal data types
+        public static int Adding(decimal x)  // Create overload method of adding that uses decimal data types
         {
-            return x + 73.37m;
+            int y = Convert.ToInt32(x + 73.37m);
+            return y;
         }
 
         public static int Adding(string input) // Create overload method of adding method that will take a string.
