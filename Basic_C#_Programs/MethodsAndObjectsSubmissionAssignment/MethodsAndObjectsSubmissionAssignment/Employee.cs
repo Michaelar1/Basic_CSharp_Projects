@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjectsSubmissionAssignment
 {
-    public class Employee : Person
+    public class Employee : Person  // Employee inherits from person
     {
-        public int ID { get; set; }
+        public int ID { get; set; }  // Creates int property ID
     }
 }
