@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace AbstractClassSubmissionAssignment
 {
-    public class Employee : Person  // Create Employee class which inherits from Person Class
+    public class Employee : Person, IQuittable  // Create Employee class which inherits from Person Class and IQuittable interface
     {
         public override void SayName()  // Implement SayName() within Employee class
         {
             base.SayName();
         }
+        public void Quit(Employee employee)
+        {
+            Console.WriteLine("{0} {1} quits.", FirstName, LastName);
+        }
+
     }
 }
