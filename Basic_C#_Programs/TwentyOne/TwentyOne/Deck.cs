@@ -31,23 +31,21 @@ namespace TwentyOne
         }
         public List<Card> Cards { get; set; }
 
-        public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
+        public void Shuffle(int times = 1)
         {
-            timesShuffled = 0;
-            for (int i = 0; i < times, i++)
+            for (int i = 0; i < times; i++)
             {
                 List<Card> TempList = new List<Card>();
                 Random random = new Random();
 
-                while (deck.Cards.Count > 0)
+                while (Cards.Count > 0)
                 {
-                    int randomIndex = random.Next(0, deck.Cards.Count);
-                    TempList.Add(deck.Cards[randomIndex]);
-                    deck.Cards.RemoveAt(randomIndex);
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
                 }
-                deck.Cards = TempList;
+                this.Cards = TempList;
             }
-            return deck;
         }
     }
 }
