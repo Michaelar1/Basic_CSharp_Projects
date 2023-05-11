@@ -10,7 +10,7 @@ namespace AbstractClassSubmissionAssignment
     {
         public override void SayName()  // Implement SayName() within Employee class
         {
-            base.SayName();
+            Console.WriteLine("Name: {0} {1}", FirstName, LastName);
         }
         public void Quit(Employee employee)
         {

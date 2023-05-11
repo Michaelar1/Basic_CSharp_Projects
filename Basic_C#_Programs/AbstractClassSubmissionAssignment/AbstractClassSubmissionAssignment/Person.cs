@@ -11,9 +11,7 @@ namespace AbstractClassSubmissionAssignment
         public string FirstName { get; set; }  // Give person string property FirstName
         public string LastName { get; set; }  // Give person string property LastName
 
-        public virtual void SayName()  // Give person method SayName()
-        {
-            Console.WriteLine("Name: {0} {1}", FirstName, LastName);
-        }
+        public abstract void SayName();  // Give person method SayName()
+        
     }
 }
