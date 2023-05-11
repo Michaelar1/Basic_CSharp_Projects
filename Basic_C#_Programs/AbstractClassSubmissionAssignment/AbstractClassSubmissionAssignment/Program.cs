@@ -16,7 +16,7 @@ namespace AbstractClassSubmissionAssignment
 
             employee.SayName();  // Call SayName() method
 
-            Employee IQuittable = new Employee();  // Create an object of type IQuittable 
+            IQuittable quitter = new Employee();  // Create an object of type IQuittable 
             employee.FirstName = "John"; 
             employee.LastName = "Smith";
             employee.Quit(employee);  // Call Quit() on IQuittable object
