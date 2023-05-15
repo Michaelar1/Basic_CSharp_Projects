@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConstructorSubmissionAssignment
 {
-    class Constructors
+    class Person
     {
         public string name;  // Create two chained constructors
         public string address;
-        public void Person(string name) : this(address, "739 Willet Rd")
+        public Person(string name) : this(name, "739 Willet Rd")
         {
 
         }
-        public void Person(string name, string address)
+        public Person(string name, string address)
         {
             this.name = name;
             this.address = address;
