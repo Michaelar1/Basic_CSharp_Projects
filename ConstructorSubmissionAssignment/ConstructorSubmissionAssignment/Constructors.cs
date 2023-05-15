@@ -8,7 +8,7 @@ namespace ConstructorSubmissionAssignment
 {
     class Constructors
     {
-        public string name;
+        public string name;  // Create two chained constructors
         public string address;
         public void Person(string name) : this(address, "739 Willet Rd")
         {

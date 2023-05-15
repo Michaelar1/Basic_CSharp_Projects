@@ -10,9 +10,9 @@ namespace ConstructorSubmissionAssignment
     {
         static void Main(string[] args)
         {
-            const string myName = "Michaela";
+            const string myName = "Michaela";  // Create a constant variable
             Console.WriteLine(myName);
-            var number = 15.25;
+            var number = 15.25;  // Create a variable using "var"
             Console.WriteLine(number);
 
             Console.ReadLine();
