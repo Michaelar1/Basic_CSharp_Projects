@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.IO;
+using MVCTutorial.Models;
 
 namespace MVCTutorial.Controllers
 {
@@ -10,19 +12,25 @@ namespace MVCTutorial.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            User user = new User();
+            user.ID = 1;
+            user.FirstName = "Michaela";
+            user.LastName = "Rehm";
+            user.Age = 32;
+            return View(user);
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
+
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact(int id=0)
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = id;
 
             return View();
         }
