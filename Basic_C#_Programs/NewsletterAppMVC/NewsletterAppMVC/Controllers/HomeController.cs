@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using NewsletterAppMVC.ViewModels;
 
 
 namespace NewsletterAppMVC.Controllers
@@ -54,14 +55,14 @@ namespace NewsletterAppMVC.Controllers
         }
         public ActionResult Admin()
         {
-            string queryString = @"SELECT Id, FirstName, LastName, EmailAddress from SignUps";
+            string queryString = @"SELECT Id, FirstName, LastName, EmailAddress, SocialSecurityNumber from SignUps";
             List<NewsletterSignUp> signups = new List<NewsletterSignUp>();
 
-            using (SqlConnection connection = new SqlConnection(connectionString)) ;
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);
 
-                connectionString.Open();
+                connection.Open();
 
                 SqlDataReader reader = command.ExecuteReader();
 
@@ -72,11 +73,22 @@ namespace NewsletterAppMVC.Controllers
                     signup.FirstName = reader["FirstName"].ToString();
                     signup.LastName = reader["LastName"].ToString();
                     signup.EmailAddress = reader["EmailAddress"].ToString();
+                    signup.SocialSecurityNumber = reader["SocialSecurityNumber"].ToString();
                     signups.Add(signup);
                 }
+                connection.Close();
+            }
+            var signupVMs = new List<SignupVM>();
+            foreach (var signup in signups)
+            {
+                var signupVM = new SignupVM();
+                signupVM.FirstName = signup.FirstName;
+                signupVM.LastName = signup.LastName;
+                signupVM.EmailAddress = signup.EmailAddress;
+                signupVMs.Add(signupVM);
             }
 
-            return View(signups);
+            return View(signupVMs);
         }
     }
 }
