@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace NewsletterAppMVC.Controllers
 {
     public class HomeController : Controller

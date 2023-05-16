@@ -1,2 +1,1 @@
-C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.AssemblyReference.cache
 C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CoreCompileInputs.cache
