@@ -15,7 +15,10 @@ namespace NewsletterAppMVC.Controllers
         {
             using (NewsletterEntities db = new NewsletterEntities())
             {
-                var signups = db.SignUps;
+                //var signups = db.SignUps.Where(x => x.Removed == null).ToList();
+                var signups = (from c in db.SignUps
+                               where c.Removed == null
+                               select c).ToList();
                 var signupVMs = new List<SignupVM>();
                 foreach (var signup in signups)
                 {
