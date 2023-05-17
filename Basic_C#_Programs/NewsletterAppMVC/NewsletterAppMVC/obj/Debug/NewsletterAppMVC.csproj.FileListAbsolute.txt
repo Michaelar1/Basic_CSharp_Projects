@@ -76,3 +76,8 @@ C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\New
 C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CopyComplete
 C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.dll
 C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.pdb
+C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.dll
+C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.xml
+C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.SqlServer.xml
+C:\Documents\GitHub\Basic_CSharp_Projects\Basic_C#_Programs\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.AssemblyReference.cache
