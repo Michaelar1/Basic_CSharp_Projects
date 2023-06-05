@@ -1,6 +1,8 @@
 # Basic_CSharp_Projects
 This is a collection of all of my projects in C# and .NET that I worked on with The Tech Academy
 
+* [Newsletter App](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/NewsletterAppMVC)
+* [Blackjack Project](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/TwentyOnehttps://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/TwentyOne)
 * [Two-Parameter Method Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment1)
 * [Optional Parameter Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MethodSubmissionAssignment2)
 * [Overload Method Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/MainMethodSubmissionAssignment)
@@ -14,6 +16,12 @@ This is a collection of all of my projects in C# and .NET that I worked on with 
 * [Daily Report Assignment](https://github.com/Michaelar1/Basic_CSharp_Projects/tree/main/Basic_C%23_Programs/DailyReportAssignment)
 
 ## Project Descriptions
+
+### Newsletter App
+  This was a C# MVC project using Visual Studio that created an app that allowed users to sign up for a newsletter. It connected to a SQL-based database to store subscriber information via the Models, which could be seen by an admin in the Admin Index view.
+
+### Blackjack Project
+  This was a C# project using Visual Studio in which I created a functional game of blackjack that can be played in the console. This game uses classes to direct gameplay, class inheritance, try/catch blocks to handle exceptions and cheating, interfaces, enums, operator overrides, lists, dictionaries, and multiple for, while, and foreach loops.
 
 ### Two-Parameter Method Assignment
   In this C# program, I created a class and a method that has two integer parameters. The method performs a math operation on the first parameter and prints it to the console and then it simply prints the second parameter to the console. I then called the method in the main program, first by passing the parameters in directly and then by naming each parameter with a variable and then passing the variables in as the parameters.
